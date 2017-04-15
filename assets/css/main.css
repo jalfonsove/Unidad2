@@ -1,6 +1,9 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+<style>
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+</style> 
 
 */
 
@@ -1354,7 +1357,7 @@
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #444;
+		color: #005883;
 		font-weight: 800;
 	}
 
@@ -1905,7 +1908,7 @@
 				transition: background-color .25s ease-in-out;
 				font-weight: 800;
 				letter-spacing: 0.025em;
-				color: #696969;
+				color: #F47920;
 				text-decoration: none;
 				border-radius: 6px;
 				padding: 0.5em 1em 0.5em 1em;
@@ -1931,7 +1934,7 @@
 	.dropotron {
 		background: #fff;
 		letter-spacing: 0.025em;
-		color: #696969;
+		color: #F47920;
 		text-decoration: none;
 		border-radius: 6px;
 		padding: 0.75em 0;
@@ -2035,7 +2038,7 @@
 		}
 
 	#copyright {
-		color: #aaa;
+		color: #F0B429;
 		padding: 4em 0 0 0;
 		text-align: center;
 	}
@@ -2262,6 +2265,7 @@
 
 					#navToggle .toggle:before {
 						display: inline-block;
+						font-family: 'Libre Franklin', sans-serif;
 						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
@@ -2318,7 +2322,7 @@
 					height: 54px;
 					line-height: 54px;
 					border-top: solid 1px #e8e8e8;
-					color: #696969;
+					color: #F47920;
 				}
 
 					#navPanel .link:first-child {
@@ -2351,7 +2355,7 @@
 				}
 
 				#navPanel .depth-0 {
-					color: #444;
+					color: #F47920;
 					font-weight: 800;
 				}
 
